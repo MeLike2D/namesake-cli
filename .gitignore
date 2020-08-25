@@ -1,13 +1,10 @@
-# lock files
+dist/
+node_modules/
+tests/
+
 yarn.lock
+yarn-error.log
+tsconfig.buildinfo
 package-lock.json
-
-# ide configurations
-.c9
-.idea
-.vscode
-
-# ignore built files
-/word-list.txt
-
-node_modules
+pnpm-lock.*
+*.env

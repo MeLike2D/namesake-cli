@@ -1,6 +1,6 @@
 {
   "name": "namesake-cli",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Find available & relevant npm package names from the command line.",
   "author": {
     "name": "Bo Lingen",
@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/citycide/namesake-cli",
   "bugs": "https://github.com/citycide/namesake-cli/issues",
+  "main": "dist/index.js",
   "engines": {
     "node": ">=6"
   },
@@ -26,28 +27,24 @@
     "maintainers"
   ],
   "bin": {
-    "namesake": "./index.js"
+    "namesake": "./dist/index.js"
   },
   "files": [
-    "index.js"
+    "./src/index.js"
   ],
-  "scripts": {
-    "lint": "standard \"*.js\" | snazzy",
-    "test": "ava"
-  },
   "dependencies": {
-    "chalk": "^2.3.0",
+    "chalk": "^4.1.0",
     "even-chunks": "^1.1.0",
-    "meow": "^3.7.0",
-    "namesake": "2.0.0",
-    "ora": "^1.3.0",
+    "meow": "^7.1.0",
+    "namesake": "3.1.0",
+    "ora": "^5.0.0",
     "text-table": "^0.2.0"
   },
   "devDependencies": {
-    "ava": "^0.24.0",
-    "execa": "^0.8.0",
-    "npm-name": "^3.1.0",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.3"
+    "@types/node": "^14.6.0",
+    "@types/text-table": "^0.2.1",
+    "@typescript-eslint/eslint-plugin": "^3.10.0",
+    "@typescript-eslint/parser": "^3.10.0",
+    "typescript": "^4.0.2"
   }
 }
