@@ -1,19 +1,14 @@
 {
-  "name": "namesake-cli",
+  "name": "@melike2d/namesake-cli",
   "version": "3.0.0",
   "description": "Find available & relevant npm package names from the command line.",
-  "author": {
-    "name": "Bo Lingen",
-    "email": "lingenbw@gmail.com",
-    "url": "https://github.com/citycide"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/citycide/namesake-cli.git"
+    "url": "git+https://github.com/  },\n/namesake-cli.git"
   },
-  "homepage": "https://github.com/citycide/namesake-cli",
-  "bugs": "https://github.com/citycide/namesake-cli/issues",
+  "homepage": "https://github.com/melike2d/namesake-cli",
+  "bugs": "https://github.com/melike2d/namesake-cli/issues",
   "main": "dist/index.js",
   "engines": {
     "node": ">=6"
